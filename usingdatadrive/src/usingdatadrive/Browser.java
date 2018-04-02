@@ -13,6 +13,6 @@ public class Browser
 	{		
 		driver.get(url);
 		driver.manage().window().maximize();
-		driver.findElement(By.xpath("/html/body/div/div[2]/nav/a")).click();
+		driver.findElement(By.xpath("/html/body/div/div[2]/nav/a")).();
 	}
 }
